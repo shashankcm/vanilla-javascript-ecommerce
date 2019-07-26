@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <script src="https://kit.fontawesome.com/551bea38f0.js"></script>
+    <title>Comfy House</title>
+    <!--font awesome-->
+    <!--custom css file-->
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <!--Start of Nav bar-->
+    <nav class="navbar">
+      <div class="navbar-center">
+        <span class="nav-icon">
+          <i class="fas fa-bars"></i>
+        </span>
+        <img src="./images/logo.svg" alt="logo" />
+        <div class="cart-btn">
+          <span class="nav-icon">
+            <i class="fas fa-cart-plus"></i>
+            <div class="cart-items">0</div>
+          </span>
+        </div>
+      </div>
+    </nav>
+    <!--End of Nav bar-->
+    <!--Start of Hero-->
+    <header class="hero">
+      <div class="banner">
+        <h1 class="banner-title">
+          furniture collection
+          <button class="banner-btn">shop now</button>
+        </h1>
+      </div>
+    </header>
+    <!--End of Hero-->
+    <!--Start of products-->
+    <section class="products">
+      <div class="section-title">
+        <h2>our products</h2>
+      </div>
+      <div class="products-center">
+        <!--single product-->
+        <article class="product">
+          <div class="img-container">
+            <img
+              src="./images/product-1.jpeg"
+              alt="product"
+              class="product-img"
+            />
+            <button class="bag-btn" data-id="1">
+              <i class="fas fa-shopping-cart"></i>
+              add to bag
+            </button>
+          </div>
+          <h3>queen bed</h3>
+          <h4>$950</h4>
+        </article>
+        <!--End of single product-->
+      </div>
+    </section>
+    <!--End of products-->
+    <script src="app.js"></script>
+  </body>
+</html>
